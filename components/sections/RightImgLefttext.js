@@ -24,7 +24,7 @@ const RightImgLefttext = ({data}) => {
             <div className="max-w-[500px] mt-9 mx-auto lg:mx-0 lg:mt-0 lg:pl-2 xl:pl-0">
               <div className="block lg:hidden">
                 <Image
-                  src={`http://localhost:1337${data.image[0]?.url}`}
+                  src={`https://cw-strapi.onrender.com${data.image[0]?.url}`}
                   width={735}
                   height={660}
                   alt="seamless image"
@@ -59,7 +59,7 @@ const RightImgLefttext = ({data}) => {
           <div className="max-w-[500px] mt-9 mx-auto lg:mx-0 lg:mt-0 lg:pl-2 xl:pl-0">
             <div className="hidden lg:block">
               <Image
-                src={`http://localhost:1337${data.image[0]?.url}`}
+                src={`https://cw-strapi.onrender.com${data.image[0]?.url}`}
                 width={735}
                 height={660}
                 alt="seamless-img.png"

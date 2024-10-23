@@ -25,7 +25,7 @@ const BgColorImage = ({data}) => {
                                                 <Image
                                                     className="absolute"
                                                     style={{ zIndex: 0, width: "500px", height: "470px" }}
-                                                    src={`http://localhost:1337${data?.image?.url}`}
+                                                    src={`https://cw-strapi.onrender.com${data?.image?.url}`}
                                                     width={435}
                                                     height={160}
                                                     alt="store staff img"

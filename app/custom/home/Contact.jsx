@@ -101,7 +101,7 @@ const Contact = (props,pageName) => {
         <div className="container px-3 mx-auto flex flex-col xl:flex-row items-center justify-between">
           <div className="w-full xl:w-[45%] mr-aut hidden lg:block">
             <Image
-              src={`http://localhost:1337${props?.contact.image?.url}`}
+              src={`https://cw-strapi.onrender.com${props?.contact.image?.url}`}
               alt="contact-image"
               width={637}
               height={529}
@@ -118,7 +118,7 @@ const Contact = (props,pageName) => {
 
             <div className="w-full xl:w-[45%] mr-aut lg:hidden">
             <Image
-              src={`http://localhost:1337${props?.contact.image?.url}`}
+              src={`https://cw-strapi.onrender.com${props?.contact.image?.url}`}
               alt="contact-image"
               width={637}
               height={529}

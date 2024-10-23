@@ -29,7 +29,7 @@ const CardImgSection = ({ data }) => {
                         <div className={` my-5 lg:my-0 lg:pt-[23px] mx-auto max-w-[250px] rounded-[16px] py-[15px] lg:pb-[30px] px-[15px]`} style={{ padding: '15px', backgroundColor: 'rgb(255, 240, 240)' }}>
                             {/* {console.log(item.image.url)} */}
                             <img
-                                src={item.image && item.image.url ? `http://localhost:1337${item.image.url}` : 'http://localhost:1337/uploads/order_flexibility_4f2975fde9.png'}
+                                src={item.image && item.image.url ? `https://cw-strapi.onrender.com${item.image.url}` : 'https://cw-strapi.onrender.com/uploads/order_flexibility_4f2975fde9.png'}
                                 alt="inventory img"
                                 style={{ maxWidth: "100%", height: "auto" }}
                             />

@@ -19,7 +19,7 @@ const Elevate = (props) => {
                     </div>
                     <div className="order-1 md:order-2 md:w-1/2 flex justify-center mt-10 md:mt-0">
                         <Image
-                            src={`http://localhost:1337${props.items[0].image.url}`}
+                            src={`https://cw-strapi.onrender.com${props.items[0].image.url}`}
                             width={735}
                             height={660}
                             alt="Shopping App"
@@ -31,7 +31,7 @@ const Elevate = (props) => {
                 <div className="flex flex-col md:flex-row my-10 items-center">
                     <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
                         <Image
-                            src={`http://localhost:1337${props.items[1].image.url}`}
+                            src={`https://cw-strapi.onrender.com${props.items[1].image.url}`}
                             width={735}
                             height={660}
                             alt="Loyalty Program"
@@ -57,7 +57,7 @@ const Elevate = (props) => {
                     </div>
                     <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
                         <Image
-                            src={`http://localhost:1337${props.items[2].image.url}`}
+                            src={`https://cw-strapi.onrender.com${props.items[2].image.url}`}
                             width={735}
                             height={660}
                             alt="Digital Storefront"

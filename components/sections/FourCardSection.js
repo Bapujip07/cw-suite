@@ -16,7 +16,7 @@ const ManagementCard = ({card} ) => {
                     <div className="my-1">
                         <Image
                             className="mx-auto"
-                            src={`http://localhost:1337${card.image.url}`}
+                            src={`https://cw-strapi.onrender.com${card.image.url}`}
                             width={152}
                             height={110}
                             alt="img"

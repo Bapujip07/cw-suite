@@ -101,7 +101,7 @@ const TalkUs = ({data}) => {
                 <div className="flex justify-center lg:justify-start mt-8 lg:mt-0">
                   <div className="lg:hidden flex justify-center">
                     <Image
-                      src={`http://localhost:1337${data.image?.url}`}
+                      src={`https://cw-strapi.onrender.com${data.image?.url}`}
                       width={526}
                       height={610}
                       alt="talk us img"

@@ -12,7 +12,7 @@ const FeaturesSectionRightImg = ({data}) => {
           <div className="max-w-[500px] mt-9 mx-auto lg:mx-0 lg:mt-0 lg:pl-2 xl:pl-0">
             <div className="hidden lg:block">
               <Image
-                src={`http://localhost:1337${data?.image.url}`}
+                src={`https://cw-strapi.onrender.com${data?.image.url}`}
                 width={735}
                 height={660}
                 alt="invoicing pricing img"

@@ -29,7 +29,7 @@ const RoundImgSection = ({data}) => {
                                 <div className=" z-50 w-[100%] h-[100%] hover:scale-[1.03] transition-all duration-200 ease-in  xl:w-[344px]">
                                     <div className="max-w-[100%] mx-auto">
                                         <img
-                                            src={`http://localhost:1337${item.image.url}`}
+                                            src={`https://cw-strapi.onrender.com${item.image.url}`}
                                             style={{ height: "262px", width: "260px" }}
                                             alt="clientelling img"
                                         />

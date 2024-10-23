@@ -39,30 +39,30 @@ const SliderSection = ({data}) => {
                             
                             <img
                                 className={sliderState.leftIconClasses}
-                                src={`http://localhost:1337${sliderState.leftIconImage.url}`}
+                                src={`https://cw-strapi.onrender.com${sliderState.leftIconImage.url}`}
                                 alt="goal"
                             />
                             <img
                                 className={sliderState.rightIconClasses}
-                                src={`http://localhost:1337${sliderState.rightIcon?.url}`}
+                                src={`https://cw-strapi.onrender.com${sliderState.rightIcon?.url}`}
 
                             />
                             <div className="z-1 max-w-[310px] absolute left-[7%] sm:left-[20%] top-[300px] lg:top-[80px] rotate-[-8.52deg] px-3 pt-3 pb-6 bg-white rounded-[16px] shadow-[0px_15px_80px_rgba(0,0,0,0.08)]">
                                 <img
                                     className="w-full"
-                                    src={`http://localhost:1337${sliderState.images[0].url}`}
+                                    src={`https://cw-strapi.onrender.com${sliderState.images[0].url}`}
                                     alt="team"
                                 />
                             </div>
                             <div className="z-1 max-w-[230px] absolute left-[6%] sm:left-[42%] top-[140px] lg:top-[220px] rotate-[3.65deg] px-3 pt-3 pb-6 bg-white rounded-[16px] shadow-[0px_15px_80px_rgba(0,0,0,0.08)]">
                                 <img 
-                                src={`http://localhost:1337${sliderState.images[1].url}`} 
+                                src={`https://cw-strapi.onrender.com${sliderState.images[1].url}`} 
                                 alt="team" />
                             </div>
                             <div className="z-[-1] max-w-[230px] absolute left-[27%] sm:left-[59%] top-[530px] lg:top-[100px] rotate-[3.65deg]  px-3 pt-3 pb-6 bg-white rounded-[16px] shadow-[0px_15px_80px_rgba(0,0,0,0.08)]">
                                 <img
                                     className="w-full"
-                                    src={`http://localhost:1337${sliderState.images[2].url}`}
+                                    src={`https://cw-strapi.onrender.com${sliderState.images[2].url}`}
                                     alt="team"
                                 />
                             </div>{" "}

@@ -35,7 +35,7 @@ console.log(data.image.url, 'url')
       className={`3xl:h-[768px] bg-center 2xl:bg-left bg-no-repeat bg-cover sm:h-[690px] h-[90vh]`}
       
       style={{
-        backgroundImage: `url(http://localhost:1337${data.image.url})`,
+        backgroundImage: `url(https://cw-strapi.onrender.com${data.image.url})`,
         // backgroundColor: data?.styling?.backgroundColor
       }}
       initial="hidden"

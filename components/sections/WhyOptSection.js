@@ -5,7 +5,7 @@ const WhyOptSection = ({data}) => {
             <div className="container mx-auto bg-[#FFF3EA] rounded-[20px] h-[550px] md:h-[600px] lg:h-[600px] relative mt-10">
                 <div className="flex justify-center absolute top-[-80px] left-0 right-0 md:left-[85px] md:right-[85px] sm:left-[5px] sm:right-[5px]">
                     <img
-                        src={`http://localhost:1337${data?.image?.url}`}
+                        src={`https://cw-strapi.onrender.com${data?.image?.url}`}
                         className="w-full h-auto md:w-auto"
                         alt="Management img"
                     />
@@ -18,7 +18,7 @@ const WhyOptSection = ({data}) => {
                         <div className="mb-4 md:mb-0 md:mr-4 lg:w-[33%]" key={index}>
                             <div className="flex items-center">
                                 <Image
-                                    src={`http://localhost:1337${item?.image?.url}`}
+                                    src={`https://cw-strapi.onrender.com${item?.image?.url}`}
                                     alt="image"
                                     height={62}
                                     width={62}
