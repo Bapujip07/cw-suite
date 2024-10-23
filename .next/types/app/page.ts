@@ -1,4 +1,4 @@
-// File: C:\Users\user\Downloads\CW-suite-new-version\CW-suite-new-version\app\page.js
+// File: C:\Users\user\Desktop\strapi-test\cw-suite-new-version-strapi\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
